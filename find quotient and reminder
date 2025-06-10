@@ -1,0 +1,12 @@
+public class division {
+    public static void main(String[] args) {
+        
+    
+    int dividend=123450;
+    int divisor=35;
+    int quotient=dividend/divisor;
+    int reminder=dividend%divisor;
+    System.out.println(quotient+" "+reminder);
+}
+}
+
