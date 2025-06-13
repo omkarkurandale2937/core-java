@@ -1,0 +1,23 @@
+  class poly{
+   
+        void print(int a,int b){
+            System.out.println(a+","+b);
+        }
+        void print(int c,double d){
+            System.out.println((c+d));
+        }
+        void print(float e,int f){
+            System.out.println(e+","+(e+f));
+        }
+       
+
+    }
+    public class polymorphism{
+        public static void main(String[] args) {
+            poly p=new poly();
+            p.print(2,3);
+            p.print(2,3.3);
+            p.print(2,3f);
+        }
+    }
+ 
