@@ -1,0 +1,34 @@
+ class Plane{
+    void fly(){
+        System.out.println("plane");
+    }
+   
+}
+ class Passenger extends Plane{
+        void fly(){
+            System.out.println("passanger");
+        }
+    }
+       
+    class Fighter extends Passenger{
+            void fly(){
+                System.out.println("fighter");
+            }
+    }
+    public class inheritancemultilevel{
+        public static void main(String[]args){
+            Passenger p=new Passenger();
+            Fighter f=new Fighter();
+            Plane pp=new Plane();
+            p.fly();
+            pp.fly();
+            f.fly();
+            pp.fly();
+
+        }
+    }
+
+    
+
+
+
